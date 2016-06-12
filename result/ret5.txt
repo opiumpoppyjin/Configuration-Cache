@@ -1,0 +1,90 @@
+Config:L1 cache  + Victim cache + L2 cache + Memory M5
+The result of trace/gcc.trace:
+Num of memory: accesses:410, loads:190, stores:220
+Num of L1 Cache: accesses:515683, loads:318197, stores:197486
+L1 Cache hit rate: 99.76%
+L1 Cache hit rate for load:99.84%
+L1 Cache hit rate for store: 99.63%
+Num of Victim cache: accesses:293, loads:158, stores:135
+Victim Cache hit rate: 1.71%
+Victim Cache hit rate for load:2.53%
+Victim Cache hit rate for store: 0.74%
+Num of L2 cache: accesses:967, loads:350, stores:617
+L2 Cache hit rate: 57.60%
+L2 Cache hit rate for load:45.71%
+L2 Cache hit rate for store: 64.34%
+CPU time: 1591127 cycles
+CPI: 3.09
+=========================================================
+Config:L1 cache  + Victim cache + L2 cache + Memory M5
+The result of trace/gzip.trace:
+Num of memory: accesses:309, loads:289, stores:20
+Num of L1 Cache: accesses:481044, loads:320441, stores:160603
+L1 Cache hit rate: 66.86%
+L1 Cache hit rate for load:50.27%
+L1 Cache hit rate for store: 99.97%
+Num of Victim cache: accesses:159094, loads:159091, stores:3
+Victim Cache hit rate: 0.00%
+Victim Cache hit rate for load:0.00%
+Victim Cache hit rate for store: 0.00%
+Num of L2 cache: accesses:346, loads:306, stores:40
+L2 Cache hit rate: 10.69%
+L2 Cache hit rate for load:5.56%
+L2 Cache hit rate for store: 50.00%
+CPU time: 1276808 cycles
+CPI: 2.65
+=========================================================
+Config:L1 cache  + Victim cache + L2 cache + Memory M5
+The result of trace/mcf.trace:
+Num of memory: accesses:309, loads:45, stores:264
+Num of L1 Cache: accesses:727230, loads:5972, stores:721258
+L1 Cache hit rate: 96.89%
+L1 Cache hit rate for load:98.38%
+L1 Cache hit rate for store: 96.88%
+Num of Victim cache: accesses:21580, loads:21, stores:21559
+Victim Cache hit rate: 0.00%
+Victim Cache hit rate for load:0.00%
+Victim Cache hit rate for store: 0.00%
+Num of L2 cache: accesses:1056, loads:76, stores:980
+L2 Cache hit rate: 70.74%
+L2 Cache hit rate for load:40.79%
+L2 Cache hit rate for store: 73.06%
+CPU time: 1076748 cycles
+CPI: 1.48
+=========================================================
+Config:L1 cache  + Victim cache + L2 cache + Memory M5
+The result of trace/swim.trace:
+Num of memory: accesses:330, loads:108, stores:222
+Num of L1 Cache: accesses:303193, loads:220668, stores:82525
+L1 Cache hit rate: 99.67%
+L1 Cache hit rate for load:99.91%
+L1 Cache hit rate for store: 99.03%
+Num of Victim cache: accesses:91, loads:27, stores:64
+Victim Cache hit rate: 0.00%
+Victim Cache hit rate for load:0.00%
+Victim Cache hit rate for store: 0.00%
+Num of L2 cache: accesses:938, loads:198, stores:740
+L2 Cache hit rate: 64.82%
+L2 Cache hit rate for load:45.45%
+L2 Cache hit rate for store: 70.00%
+CPU time: 1218673 cycles
+CPI: 4.02
+=========================================================
+Config:L1 cache  + Victim cache + L2 cache + Memory M5
+The result of trace/twolf.trace:
+Num of memory: accesses:175, loads:105, stores:70
+Num of L1 Cache: accesses:482824, loads:351403, stores:131421
+L1 Cache hit rate: 99.92%
+L1 Cache hit rate for load:99.95%
+L1 Cache hit rate for store: 99.85%
+Num of Victim cache: accesses:9, loads:8, stores:1
+Victim Cache hit rate: 11.11%
+Victim Cache hit rate for load:12.50%
+Victim Cache hit rate for store: 0.00%
+Num of L2 cache: accesses:370, loads:177, stores:193
+L2 Cache hit rate: 52.70%
+L2 Cache hit rate for load:40.68%
+L2 Cache hit rate for store: 63.73%
+CPU time: 1472236 cycles
+CPI: 3.05
+=========================================================

@@ -1,0 +1,70 @@
+Config:L1 cache + L2 cache + Memory M4
+The result of trace/gcc.trace:
+Num of memory: accesses:524, loads:267, stores:257
+Num of L1 Cache: accesses:515683, loads:318197, stores:197486
+L1 Cache hit rate: 99.76%
+L1 Cache hit rate for load:99.84%
+L1 Cache hit rate for store: 99.63%
+Num of L2 cache: accesses:1228, loads:500, stores:728
+L2 Cache hit rate: 57.33%
+L2 Cache hit rate for load:46.60%
+L2 Cache hit rate for store: 64.70%
+CPU time: 1604844 cycles
+CPI: 3.11
+=========================================================
+Config:L1 cache + L2 cache + Memory M4
+The result of trace/gzip.trace:
+Num of memory: accesses:159372, loads:159349, stores:23
+Num of L1 Cache: accesses:481044, loads:320441, stores:160603
+L1 Cache hit rate: 66.86%
+L1 Cache hit rate for load:50.27%
+L1 Cache hit rate for store: 99.97%
+Num of L2 cache: accesses:159408, loads:159365, stores:43
+L2 Cache hit rate: 0.02%
+L2 Cache hit rate for load:0.01%
+L2 Cache hit rate for store: 46.51%
+CPU time: 18614634 cycles
+CPI: 38.70
+=========================================================
+Config:L1 cache + L2 cache + Memory M4
+The result of trace/mcf.trace:
+Num of memory: accesses:5681, loads:45, stores:5636
+Num of L1 Cache: accesses:727230, loads:5972, stores:721258
+L1 Cache hit rate: 96.89%
+L1 Cache hit rate for load:98.38%
+L1 Cache hit rate for store: 96.88%
+Num of L2 cache: accesses:22604, loads:97, stores:22507
+L2 Cache hit rate: 74.87%
+L2 Cache hit rate for load:53.61%
+L2 Cache hit rate for store: 74.96%
+CPU time: 1807848 cycles
+CPI: 2.49
+=========================================================
+Config:L1 cache + L2 cache + Memory M4
+The result of trace/swim.trace:
+Num of memory: accesses:334, loads:108, stores:226
+Num of L1 Cache: accesses:303193, loads:220668, stores:82525
+L1 Cache hit rate: 99.67%
+L1 Cache hit rate for load:99.91%
+L1 Cache hit rate for store: 99.03%
+Num of L2 cache: accesses:997, loads:199, stores:798
+L2 Cache hit rate: 66.50%
+L2 Cache hit rate for load:45.73%
+L2 Cache hit rate for store: 71.68%
+CPU time: 1219572 cycles
+CPI: 4.02
+=========================================================
+Config:L1 cache + L2 cache + Memory M4
+The result of trace/twolf.trace:
+Num of memory: accesses:175, loads:105, stores:70
+Num of L1 Cache: accesses:482824, loads:351403, stores:131421
+L1 Cache hit rate: 99.92%
+L1 Cache hit rate for load:99.95%
+L1 Cache hit rate for store: 99.85%
+Num of L2 cache: accesses:371, loads:178, stores:193
+L2 Cache hit rate: 52.83%
+L2 Cache hit rate for load:41.01%
+L2 Cache hit rate for store: 63.73%
+CPU time: 1472237 cycles
+CPI: 3.05
+=========================================================
